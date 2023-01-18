@@ -1,0 +1,4 @@
+parameters:
+    pim_job_instance_extra_tab_jobs:
+          - 'csv_category_export'
+          - 'csv_locale_export'

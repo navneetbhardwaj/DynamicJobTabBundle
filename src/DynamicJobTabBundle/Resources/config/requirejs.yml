@@ -1,0 +1,13 @@
+config:
+  paths:
+    dynamic/job/common/edit/newtab: dynamicjobtab/js/job/common/edit/newTab
+    dynamic/template/export/common/edit/newtab: dynamicjobtab/templates/job/common/edit/newTab.html
+  config:
+    pim/fetcher-registry:
+      fetchers:
+        job_code_by_instance_code:
+          module: pim/base-fetcher
+          options:
+            urls:
+              get: dynamic_job_code_by_instance_code
+

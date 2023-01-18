@@ -1,0 +1,20 @@
+extensions:
+    _form_name_-edit-custom_tab:
+      module: dynamic/job/common/edit/newtab
+      parent: _form_name_-edit-tabs
+      aclResourceId: pim_importexport_export_profile_property_edit
+      targetZone: container
+      position: 110
+      config:
+          tabTitle: pim_common.custom_tab
+          tabCode: pim-job-instance-custom_tab
+          whitelistJobs: []
+    
+    _form_name_-edit-custom_tab-file:
+        module: pim/job/common/edit/field/text
+        parent: _form_name_-edit-custom_tab
+        position: 100
+        targetZone: customTab
+        config:
+            fieldCode: label
+            label: pim_common.filename

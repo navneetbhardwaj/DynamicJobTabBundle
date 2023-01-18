@@ -1,0 +1,3 @@
+dynamic_job_code_by_instance_code:
+    path: /dynamic-job/get_job_code/{identifier}
+    defaults: { _controller: dynamic_configuration_controller:getJobCodeByInstanceCode}

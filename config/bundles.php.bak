@@ -1,0 +1,6 @@
+<?php
+
+return [
+    // Add your bundles here with the associated env.
+    DynamicJobTabBundle\DynamicJobTabBundle::class => ['all' => true],
+];

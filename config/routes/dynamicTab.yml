@@ -1,0 +1,3 @@
+dynamicTab:
+    resource: "@DynamicJobTabBundle/Resources/config/routing.yml"
+    prefix:   /
