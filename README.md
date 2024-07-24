@@ -1,6 +1,6 @@
 # DynamicJobTabBundle
 
-Dynamic Job Tab bundle can be use to dynamically add a custom Tab in the any job. need to configure the job name in the file configuration.yml
+Dynamic Job Tab Bundle: Seamlessly add custom tabs to any job with the Dynamic Job Tab Bundle. This versatile tool allows you to dynamically integrate a custom tab into your job listings. To configure the job name, simply update the configuration.yml file.
 
 
 # Installation
